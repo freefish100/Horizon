@@ -1,0 +1,160 @@
+---
+layout: default
+title: "Horizon Summary: 2026-06-29 (EN)"
+date: 2026-06-29
+lang: en
+---
+
+> From 28 items, 7 important content pieces were selected
+
+---
+
+1. [GLM 5.2 Beats Claude in Cybersecurity Benchmarks](#item-1) ⭐️ 8.0/10
+2. [Historical Memory Prices from 1960 to 2026 Detailed](#item-2) ⭐️ 8.0/10
+3. [Brown Professor Alleges Widespread AI Cheating on Exam](#item-3) ⭐️ 8.0/10
+4. [KIDS Act Mandates Age Checks, EFF Warns of Privacy Risks](#item-4) ⭐️ 8.0/10
+5. [Jon Udell: Reframe AI Agents as Team Members](#item-5) ⭐️ 8.0/10
+6. [Interactive Minimal Transformer with Editable Weights](#item-6) ⭐️ 8.0/10
+7. [Google restricts Meta's Gemini access amid AI compute crunch](#item-7) ⭐️ 8.0/10
+
+---
+
+<a id="item-1"></a>
+## [GLM 5.2 Beats Claude in Cybersecurity Benchmarks](https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks/) ⭐️ 8.0/10
+
+GLM 5.2, Z.ai's open-weight flagship model, outperformed Claude 4.6 in Semgrep's cybersecurity benchmarks, demonstrating superior bug-finding capabilities in programming and security contexts. This result highlights that open-source models can compete with proprietary leaders in specialized domains like cybersecurity, potentially reducing costs and dependency on closed-source vendors. GLM 5.2 features 753 billion parameters in a Mixture-of-Experts (MoE) architecture with a stable 1 million context window, released under an MIT license, and also outperforms GPT-5.5 on several coding benchmarks.
+
+hackernews · jms703 · Jun 28, 17:50 · [Discussion](https://news.ycombinator.com/item?id=48709670)
+
+**Background**: GLM is a series of large language models developed by Z.ai, an AI company. MoE architecture activates only part of the parameters per token, enabling efficient inference. Cybersecurity benchmarks like Semgrep's test models on real-world bug detection tasks.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://www.buildfastwithai.com/blogs/glm-5-2-review-2026">GLM - 5 . 2 Review 2026: Z.ai's 1M-Context AI Model</a></li>
+<li><a href="https://ollama.com/library/glm-5.2">GLM - 5 . 2 is Z.ai’s flagship model for the era of long-horizon tasks.</a></li>
+<li><a href="https://heyaiwiki.com/models/glm-5-2/">GLM - 5 . 2 — Z.ai LLMs model | heyaiwiki</a></li>
+
+</ul>
+</details>
+
+**Discussion**: Community comments express that GLM 5.2 is a strong workhorse model for daily programming, though its 753B parameter size raises hardware requirements. Some users note that other open models like DeepSeek V4 Pro achieved better results in their own tests, indicating benchmark variability.
+
+**Tags**: `#GLM`, `#LLM`, `#benchmark`, `#cybersecurity`, `#open-source model`
+
+---
+
+<a id="item-2"></a>
+## [Historical Memory Prices from 1960 to 2026 Detailed](https://dam.stanford.edu/memory-prices.html) ⭐️ 8.0/10
+
+A comprehensive chart and analysis of memory prices from 1960 to 2026 has been published on Stanford's DAM site, providing historical data on cost per gigabyte across various memory technologies. This matters because it tracks decades of technological progress and inflation, offering insights into hardware cost trends and future pricing predictions, especially in light of recent AI-driven demand spikes. The data is not inflation-adjusted, making early prices appear lower in nominal terms. The dataset continues the work of the now-defunct jcmit dataset, which was archived on Archive.org.
+
+hackernews · vga1 · Jun 28, 18:32 · [Discussion](https://news.ycombinator.com/item?id=48710092)
+
+**Background**: Memory prices have historically declined rapidly, with cost per megabyte dropping from thousands of dollars to fractions of a cent over decades. Breakthroughs in technologies like DRAM, SRAM, and NAND flash have driven this trend. However, recent AI demand has caused temporary price increases, and the chart helps contextualize these fluctuations.
+
+**Discussion**: Comments note that the lack of inflation adjustment makes early prices misleading, and that per-GB pricing before 1990 was unrealistic. Some discuss modern software bloat and the impact of AI demand on current prices, while others muse about future price drops after capacity expansions.
+
+**Tags**: `#memory prices`, `#hardware history`, `#data visualization`, `#technology trends`
+
+---
+
+<a id="item-3"></a>
+## [Brown Professor Alleges Widespread AI Cheating on Exam](https://english.elpais.com/education/2026-06-28/ai-fraud-at-brown-university-academic-integrity-is-at-risk.html) ⭐️ 8.0/10
+
+A professor at Brown University publicly denounced a mass instance of AI-assisted cheating on an exam, highlighting the urgent challenge to academic integrity in higher education. This incident underscores the growing difficulty of preventing AI misuse in assessments, forcing educators to rethink exam formats, such as adopting in-person handwritten tests or adversarial course design. The professor reported that a significant portion of the class submitted answers generated by AI, prompting discussions about the effectiveness of current monitoring methods and the need for systemic changes.
+
+hackernews · geox · Jun 28, 16:41 · [Discussion](https://news.ycombinator.com/item?id=48708991)
+
+**Background**: Large language models like GPT-4 can produce convincing text and code, making them attractive tools for cheating on take-home assignments and online exams. Many universities are struggling to update their honor codes and proctoring measures to address this emerging threat.
+
+**Discussion**: Commenters on the article emphasized that in-person handwritten exams and adversarial course design are necessary adaptations. They also noted that law schools already use locked-down word processors for exams, and that designing courses to optimize for learning despite AI use is a game-theoretic challenge.
+
+**Tags**: `#AI ethics`, `#education`, `#exam fraud`, `#academic integrity`, `#CS education`
+
+---
+
+<a id="item-4"></a>
+## [KIDS Act Mandates Age Checks, EFF Warns of Privacy Risks](https://www.eff.org/deeplinks/2026/06/kids-act-would-require-age-checks-get-online) ⭐️ 8.0/10
+
+The KIDS Act (Kids Internet Design and Safety Act) would require websites to verify users' ages before granting access, and the Electronic Frontier Foundation (EFF) has published a strong opposition, arguing it threatens privacy and free speech. This legislation, if passed, could fundamentally change how the internet operates by mandating identity checks for all users, potentially setting a precedent for global internet governance and impacting billions of users worldwide. The bill is sponsored by Brett Guthrie (R-KY) and Frank Pallone (D-NJ), and critics point to lobbying ties with companies like Alphabet. Age verification methods often involve uploading government IDs, biometric scans, or credit card details, which create significant privacy risks.
+
+hackernews · bilsbie · Jun 28, 11:56 · [Discussion](https://news.ycombinator.com/item?id=48706560)
+
+**Background**: Age verification online is a contentious topic. Proponents argue it protects minors from harmful content, but opponents say it undermines anonymity and can be used for censorship or data collection. The EFF has long advocated against mandatory age checks, citing First Amendment concerns. Existing methods like ID uploads or device fingerprinting can be invasive and insecure.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://tech.yahoo.com/cybersecurity/articles/happens-data-verify-age-risks-085210906.html">What happens to your data when you verify your age – and what are...</a></li>
+<li><a href="https://didit.me/blog/age-verification-conversion-optimization/">Age Verification : Optimize UX & Conversions.</a></li>
+
+</ul>
+</details>
+
+**Discussion**: Commenters express diverse views: some support age checks to protect identities, while others question the sudden global push for internet lockdowns, suspecting special interest lobbying. One commenter notes research showing little evidence of social media harming mental health, contrasting with the political narrative.
+
+**Tags**: `#privacy`, `#legislation`, `#age verification`, `#internet governance`, `#policy`
+
+---
+
+<a id="item-5"></a>
+## [Jon Udell: Reframe AI Agents as Team Members](https://simonwillison.net/2026/Jun/28/jon-udell/#atom-everything) ⭐️ 8.0/10
+
+Jon Udell argues that 'human in the loop' wrongly cedes authority to machines and proposes reframing AI agents as team members invited into the human development loop, rather than replacing it. This perspective shifts the narrative from AI replacing humans to AI augmenting teams, which could influence how developers design agentic software and address concerns about unreviewable pull requests and loss of control. Udell specifically critiques agentic processes that become black boxes, emphasizing that agent-assisted development should remain transparent and keep humans in charge of the overall loop.
+
+rss · Simon Willison · Jun 28, 21:57
+
+**Background**: Agentic software development involves autonomous AI agents that plan, write, test, and modify code with minimal human intervention. This contrasts with traditional AI coding assistants that wait for user input. The 'human in the loop' phrase has been used to describe systems where human oversight is included but often implies that humans are peripheral. Udell's reframing places humans at the center, with agents as collaborators.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://www.agentic-dev.org/en/handbook/introduction/what-is-agentic-development">What is Agentic Development? — Handbook</a></li>
+<li><a href="https://cloud.google.com/discover/what-is-agentic-coding">What is agentic coding? How it works and use cases</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#jon-udell`, `#agentic software development`, `#human in the loop`, `#AI agents`, `#coding agents`
+
+---
+
+<a id="item-6"></a>
+## [Interactive Minimal Transformer with Editable Weights](https://www.reddit.com/r/MachineLearning/comments/1uhw7fu/i_shrank_a_transformer_until_every_number_fitted/) ⭐️ 8.0/10
+
+A software engineer created a self-contained HTML page that implements a minimal transformer model (single attention head, single block) with a 6-word vocabulary and 3-dimensional embeddings, where all weights and word vectors are editable and the forward pass recomputes live. This tool provides an intuitive, hands-on way to understand the inner workings of transformers at the matrix multiplication level, making it valuable for students, educators, and self-learners in machine learning. The page walks through the entire forward pass step by step, including word vectors, Q/K/V, attention scores, causal mask, softmax, feed-forward network, logits, and probabilities; it also includes a Randomize button to illustrate that untrained weights produce meaningless predictions.
+
+reddit · r/MachineLearning · /u/DanielMoGo · Jun 28, 12:35
+
+**Background**: Transformers are the foundational architecture of large language models (LLMs). They use attention mechanisms with Query, Key, and Value projections to compute context-aware representations. The causal mask ensures that during generation, each token only attends to previous tokens, preventing information leakage from future tokens.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://medium.com/data-science/what-are-query-key-and-value-in-the-transformer-architecture-and-why-are-they-used-acbe73f731f2">What is Query, Key, and Value ( QKV ) in the Transformer ... | Medium</a></li>
+<li><a href="https://machinelearningmastery.com/a-gentle-introduction-to-attention-masking-in-transformer-models/">A Gentle Introduction to Attention Masking in Transformer Models - MachineLearningMastery.com</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#transformer`, `#education`, `#visualization`, `#interactive`, `#machine learning`
+
+---
+
+<a id="item-7"></a>
+## [Google restricts Meta's Gemini access amid AI compute crunch](https://www.ft.com/content/c5d52f72-71ef-40bc-bad3-61afdba8b378) ⭐️ 8.0/10
+
+Google informed Meta around March 2025 that it could not provide the full Gemini AI capacity Meta had purchased, a restriction that remains in effect and has delayed some of Meta's internal AI projects. This reveals that AI compute shortages are directly impacting major players like Meta, accelerating the push for self-developed models and highlighting the growing demand-supply gap in AI infrastructure. Google signed a $920 million per month compute lease with SpaceX to expand capacity, while Meta—which lacks its own cloud business—is heavily investing in data centers and prioritizing its new Muse Spark model to reduce reliance on external models.
+
+telegram · zaihuapd · Jun 28, 07:38
+
+**Background**: Gemini is a family of multimodal large language models developed by Google DeepMind, offered as a cloud service via Google Cloud. AI compute refers to the specialized hardware (like GPUs) needed to train and run such models. As demand for AI grows, cloud providers face capacity constraints, forcing customers to seek alternatives or build their own infrastructure.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Gemini_(AI_model)">Gemini (AI model)</a></li>
+<li><a href="https://ai.meta.com/blog/introducing-muse-spark-msl/">Introducing Muse Spark: Scaling Towards Personal Superintelligence</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#AI compute`, `#Google`, `#Meta`, `#Gemini`, `#cloud computing`
+
+---
